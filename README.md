@@ -1,10 +1,14 @@
 # unzip-luau
 Fast Luau module for decoding zip files
 
+----
+
 # API
 
 ## `Unzip(Data: buffer) -> { [string]: buffer }`
 Decodes a zip file and returns files in this format: `[foldername/filename] = buffer`
+
+----
 
 # Example usage
 
